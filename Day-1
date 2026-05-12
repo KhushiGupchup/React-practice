@@ -1,0 +1,14 @@
+Day 1:Learning 
+
+React??
+--> React is a Javascript Library which is use to build the UI of webpages.
+
+History...
+--> Founded in 2013 by facebook(meta)
+--> Founded by :Jordan Walke
+
+Why it required
+-->As users increase to handle the load of pages.
+--> See when anyone like the post it shows notifications but the count of like is not increase if we refresh the page then the count of like is increase so to handle such things like if particular thing is change no need to refresh full page 
+-->then react help to build the Single Page Application.
+
