@@ -9,6 +9,38 @@ History...
 
 Why it required
 -->As users increase to handle the load of pages.
---> See when anyone like the post it shows notifications but the count of like is not increase if we refresh the page then the count of like is increase so to handle such things like if particular thing is change no need to refresh full page 
+--> See when anyone like the post it shows notifications but the count of like is not increase if we refresh the page then
+-->the count of like is increase so to handle such things like if particular thing is change no need to refresh full page 
 -->then react help to build the Single Page Application.
+
+
+Import and Export
+
+type:module
+
+Import : to take from other files
+eg. import a from './file';
+import {a,b} from './file2'
+
+Export : to give to other files
+-->Two types: Named and Default
+
+export default a (if default then any name can be given)
+
+
+DOM vs Virtual DOM
+
+1. DOM 
+-->fully refresh page to do any single change
+
+2. Virtual DOM
+-->make the copy of DOM do the changes in the copy DOM and then compare with real dom if change then only update that thing 
+-->only no refresh is done makes the webpage performance fast
+
+
+JSX
+
+-->It allows developers to write HTML-like structures directly inside JavaScript files
+
+
 
