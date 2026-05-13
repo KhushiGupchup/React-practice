@@ -1,0 +1,63 @@
+Day 2 : Learning
+
+ Structure of React files
+
+-->Src--App.jsx--main.jsx--index.html
+-->App.jsx -- will have the code or any ui you need to create for the project
+-->main.jsx -- will have root element from html and render the ui
+-->index.html -- which will show the ui what we were doing as only index.html is running in browser
+
+-->Commands to create react app using vite
+1.npm create vite
+2.Project name: Type your desired name (e.g., my-react-app).
+3.Select a framework: Use arrow keys to select React.
+4.Select a variant: Choose JavaScript .
+5.Go to that folder using cd .
+6.Run by using npm run dev(will show localhost running on 5173 port or a link is shown click and view it)
+
+-->how jsx can be included
+App.jsx
+
+function App(){
+  return <h1>Hello to first react project </h1>
+}
+
+export default App
+
+-->where ww will import the App it is in main.jsx
+
+import App from './App.jsx'
+''' here we will take id from index html to render our App'''
+ReactDOM.createRoot(document.getElementById('root')).render(
+<App/> or App()
+)
+
+-->let's see index.html
+
+<div id= "root"></div>
+here the App content will render
+
+-->Relationship between all files
+index.html(parent)--most important to render
+    |
+main.jsx(parent)
+    |
+App.jsx(child)
+
+
+-->boilerplate if want --add extension react snippet
+cmd-->rafce--enter
+
+
+--->Important 
+You can only return 1nce not twice if then error
+
+App is function which will return only 1 thing so no two
+
+if u want 
+in <div> add as many as u want</div>
+
+or
+
+<> </> -- fragments(wrapper) which will help to maintain <div></div> another <div></div> so no error will occur
+
