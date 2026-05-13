@@ -61,3 +61,7 @@ or
 
 <> </> -- fragments(wrapper) which will help to maintain <div></div> another <div></div> so no error will occur
 
+
+Components most important part of react
+-->It is like a reusable block if we want to make cards for n times then i dont need to write that code n times if i make as component then whenever i want i can use it 
+-->component is must to build huge websites
