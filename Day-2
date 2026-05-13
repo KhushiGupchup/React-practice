@@ -65,3 +65,12 @@ or
 Components most important part of react
 -->It is like a reusable block if we want to make cards for n times then i dont need to write that code n times if i make as component then whenever i want i can use it 
 -->component is must to build huge websites
+
+
+-->Variables in JSX
+
+--->use {}
+ in that var name
+
+eg.const name = "a"
+in return <h1>Hello , I'm {name}</h1>
