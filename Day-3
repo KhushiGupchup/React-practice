@@ -1,0 +1,18 @@
+Day 3 Learning
+
+Props: which helps us to pass data from parents to child(properties)
+
+## Data always pass from top to bottom
+Parent to child data transfer
+
+in App.jsx call child <Card user='abc'/> (atrribute=property like that) here we will pass the data from parent to child(Card)
+
+in Card.jsx in function Card (props) and if u log then u will get the user:abc(object type, key: value(log) )
+
+if string : pass like "abc" 
+if num : pass like {12} if u pass 12 it will show error
+
+if two attribute pass then logging will show both but only one u want then props.user or props.age in console.log
+
+if in div u do <h1>{props.user}</h1> then the value from props will be shown
+
